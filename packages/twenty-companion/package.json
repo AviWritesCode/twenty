@@ -1,8 +1,8 @@
 {
   "name": "twenty-desktop",
-  "productName": "Twenty",
+  "productName": "OneRM",
   "version": "1.0.0",
-  "description": "Twenty meeting recorder",
+  "description": "OneRM meeting recorder",
   "main": ".webpack/main",
   "scripts": {
     "start": "concurrently \"yarn start:server\" \"yarn start:electron\"",

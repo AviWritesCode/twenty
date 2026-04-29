@@ -45,6 +45,7 @@ export default defineConfig(({ mode }) => {
   }
 
   return {
+    base: process.env.REPOSITORY_NAME ? `/${process.env.REPOSITORY_NAME}/` : '/',
     root: __dirname,
     cacheDir: '../../node_modules/.vite/packages/twenty-front',
 

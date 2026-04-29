@@ -10,8 +10,8 @@ export const Icon = ({
   className,
   style,
   size,
-  stroke,
-  color,
+  stroke = 1.5,
+  color = '#a981b0',
 }: IconProps) => {
   const { getIcon } = useIcons();
 

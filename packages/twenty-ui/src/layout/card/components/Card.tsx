@@ -7,13 +7,6 @@ const StyledCard = styled.div<{
   rounded?: boolean;
   backgroundColor?: string;
 }>`
-  background-color: ${({ backgroundColor }) =>
-    backgroundColor ?? 'transparent'};
-  border: 1px solid ${themeCssVariables.border.color.medium};
-  border-radius: ${({ rounded }) =>
-    rounded
-      ? themeCssVariables.border.radius.md
-      : themeCssVariables.border.radius.sm};
   color: ${themeCssVariables.font.color.secondary};
   overflow: hidden;
   width: ${({ fullWidth }) => (fullWidth ? '100%' : 'auto')};
@@ -35,7 +28,7 @@ export const Card = ({
 }: CardProps) => {
   return (
     <StyledCard
-      className={className}
+      className={['liquid-glass', className].filter(Boolean).join(' ')}
       fullWidth={fullWidth}
       rounded={rounded}
       backgroundColor={backgroundColor}

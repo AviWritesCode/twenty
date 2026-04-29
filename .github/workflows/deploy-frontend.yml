@@ -1,0 +1,38 @@
+name: Deploy Frontend to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Or whatever your default branch is
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Build Frontend
+        run: npx nx build twenty-front
+        env:
+          NODE_ENV: production
+          NODE_OPTIONS: --max-old-space-size=8192
+          REACT_APP_SERVER_BASE_URL: ${{ secrets.REACT_APP_SERVER_BASE_URL }}
+          REPOSITORY_NAME: twenty # Replace with your actual repo name if it's different
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./packages/twenty-front/build

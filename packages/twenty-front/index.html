@@ -19,7 +19,7 @@
       content="https://raw.githubusercontent.com/twentyhq/twenty/main/docs/static/img/social-card.png"
     />
     <meta property="og:description" content="A modern open-source CRM" />
-    <meta property="og:title" content="Twenty" />
+    <meta property="og:title" content="OneRM" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:image"
@@ -27,7 +27,7 @@
     />
 
     <meta name="twitter:description" content="A modern open-source CRM" />
-    <meta name="twitter:title" content="Twenty" />
+    <meta name="twitter:title" content="OneRM" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
@@ -37,7 +37,21 @@
       href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500;600&display=swap"
     />
 
-    <title>Twenty</title>
+    <title>OneRM</title>
+    <!-- BEGIN: SPA Redirect Hack -->
+    <script type="text/javascript">
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, l.pathname.lastIndexOf('/')) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+    <!-- END: SPA Redirect Hack -->
     <!-- BEGIN: Twenty Config -->
     <script id="twenty-env-config">
       window._env_ = {

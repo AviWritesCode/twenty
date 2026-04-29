@@ -75,12 +75,12 @@ const computeButtonDynamicStyles = (
       switch (accent) {
         case 'default':
           result.background = !inverted
-            ? themeCssVariables.background.secondary
+            ? 'linear-gradient(135deg, #a981b0 0%, #e8a3a2 100%)'
             : themeCssVariables.background.primary;
           result.borderColor = !inverted
             ? !disabled && focus
               ? themeCssVariables.color.blue
-              : themeCssVariables.background.transparent.light
+              : 'transparent'
             : themeCssVariables.background.transparent.light;
           result.borderWidthOverride = '1px 1px 1px 1px';
           result.boxShadow =

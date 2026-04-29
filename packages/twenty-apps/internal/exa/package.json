@@ -1,7 +1,7 @@
 {
   "name": "twenty-exa",
   "version": "0.1.0",
-  "description": "Structured web search powered by Exa, exposed to Twenty AI agents as a tool.",
+  "description": "Structured web search powered by Exa, exposed to OneRM AI agents as a tool.",
   "license": "MIT",
   "engines": {
     "node": "^24.5.0",

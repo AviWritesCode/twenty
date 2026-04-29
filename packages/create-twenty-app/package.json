@@ -1,7 +1,7 @@
 {
   "name": "create-twenty-app",
   "version": "2.1.0",
-  "description": "Command-line interface to create Twenty application",
+  "description": "Command-line interface to create OneRM application",
   "main": "dist/cli.cjs",
   "bin": "dist/cli.cjs",
   "files": [
