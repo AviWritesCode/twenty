@@ -1,1 +1,0 @@
-import{fK as l,fR as a,g6 as c}from"./index-CXr1PeGK.js";const q=({queryId:s,operationSignature:t})=>{const e=l(),r=a.useCallback((i,o,f)=>{const n=e.get(c.atom),m=n.some(u=>u.queryId===o);i!==m&&(i?e.set(c.atom,[...n,{queryId:o,operationSignature:f}]):e.set(c.atom,n.filter(u=>u.queryId!==o)))},[e]);a.useEffect(()=>(r(!0,s,t),()=>{r(!1,s,t)}),[r,s,t])};export{q as u};

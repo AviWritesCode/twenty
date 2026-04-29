@@ -1,1 +1,0 @@
-import{gc as a,gd as d}from"./index-CXr1PeGK.js";const I=({objectNameSingular:e})=>{const{objectMetadataItem:t}=a({objectNameSingular:e});return{labelIdentifierFieldMetadataItem:d(t)}};export{I as u};

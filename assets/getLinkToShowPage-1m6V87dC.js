@@ -1,1 +1,0 @@
-import{gh as e,gi as o}from"./index-CXr1PeGK.js";const T=(t,a)=>{const s=o({objectNameSingular:t}),g=t===e.WorkspaceMember;return t===e.NoteTarget?o({objectNameSingular:e.Note})+a.note?.id:t===e.TaskTarget?o({objectNameSingular:e.Task})+a.task?.id:g||!a.id?"":`${s}${a.id}`};export{T as g};

@@ -1,0 +1,1 @@
+import{gr as o,gu as i,iR as r,hB as u}from"./index-DEyOJL8X.js";const c=o({key:"workspaceInvitationsState",defaultValue:[]}),d=()=>{const[t]=i(r),n=u(c);return{sendInvitation:async a=>await t({variables:a,onCompleted:e=>{n(s=>[...s,...e.sendInvitations.result])}})}};export{d as u,c as w};

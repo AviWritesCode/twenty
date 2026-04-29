@@ -1,0 +1,1 @@
+import{gp as r,gq as o,fS as l}from"./index-DEyOJL8X.js";const u=()=>{const{data:s,loading:n,error:a}=r(o),t=l(s?.listPlans);return{loading:n,error:a,isPlansLoaded:t,listPlans:()=>{if(!s)throw new Error("plans is undefined");return s.listPlans}}};export{u};

@@ -1,1 +1,0 @@
-import{fR as n,fS as o}from"./index-CXr1PeGK.js";const f=({elementRef:t,onDimensionChange:e})=>(n.useEffect(()=>{if(!t.current)return;const c=new ResizeObserver(s=>{const r=s[0];o(r)&&e({width:r.contentRect.width,height:r.contentRect.height})});return c.observe(t.current),()=>c.disconnect()},[t,e]),null);export{f as N};

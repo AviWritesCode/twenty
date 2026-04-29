@@ -1,0 +1,1 @@
+import{gJ as r,fL as i,fN as s}from"./index-DEyOJL8X.js";import{i as o,a as n}from"./useApplicationAvatarColors-fjhq-gNO.js";const a=()=>r._({id:"WOXdI6"}),p=()=>r._({id:"HP7per"}),d=t=>{const e=i(s);return o(t)?p():n(t,e)?a():t?.description??""};export{d as u};

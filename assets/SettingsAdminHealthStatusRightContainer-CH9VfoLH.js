@@ -1,1 +1,0 @@
-import{fV as t,hq as i,gJ as r}from"./index-CXr1PeGK.js";import{A as m}from"./graphql-FCWclhKL.js";const o=({status:e})=>t.jsxs(t.Fragment,{children:[e===m.OPERATIONAL&&t.jsx(i,{color:"green",text:r._({id:"8m1COB"}),weight:"medium"}),e===m.OUTAGE&&t.jsx(i,{color:"red",text:r._({id:"yL8XdR"}),weight:"medium"})]});export{o as S};

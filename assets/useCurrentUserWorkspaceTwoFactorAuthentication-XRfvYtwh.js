@@ -1,1 +1,0 @@
-import{fL as s,gB as a,gu as n,gC as c,fR as u}from"./index-CXr1PeGK.js";const h=()=>{const t=s(a),[o]=n(c);return{currentUserWorkspaceTwoFactorAuthenticationMethods:u.useMemo(()=>{const r={};return(t?.twoFactorAuthenticationMethodSummary??[]).forEach(e=>r[e.strategy]=e),r},[t]),initiateCurrentUserWorkspaceOtpProvisioning:o}};export{h as u};

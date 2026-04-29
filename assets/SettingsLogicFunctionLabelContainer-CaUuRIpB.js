@@ -1,0 +1,1 @@
+import{fV as e,gJ as a,g4 as n}from"./index-DEyOJL8X.js";import{T as l}from"./TitleInput-pltuh0g2.js";const d=n("div")({name:"StyledHeaderTitle",class:"sd1x63v",propsAsIs:!1}),c=({value:s,onChange:t,readonly:i=!1})=>e.jsx(d,{children:e.jsx(l,{instanceId:"logic-function-name-input",sizeVariant:"md",value:s,onChange:t,placeholder:a._({id:"AHOl4W"}),disabled:i})});export{c as S};

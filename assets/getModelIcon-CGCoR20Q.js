@@ -1,1 +1,0 @@
-import{aG as n,km as a,kn as e,ko as I,kp as L,kq as M}from"./index-CXr1PeGK.js";import{M as r}from"./graphql-FCWclhKL.js";import{g as c}from"./getProviderIcon-DPg2MV1I.js";const s={[r.GPT]:M,[r.CLAUDE]:L,[r.GEMINI]:I,[r.MISTRAL]:e,[r.GROK]:a,FALLBACK:n},i=o=>o in s,C=(o,t)=>o&&i(o)?s[o]:t?c(t):s.FALLBACK;export{C as g};

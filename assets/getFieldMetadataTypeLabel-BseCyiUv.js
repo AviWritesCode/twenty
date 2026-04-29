@@ -1,0 +1,1 @@
+import{hr as t,gY as s,hs as o,g_ as e}from"./index-DEyOJL8X.js";import{S as r}from"./SettingsNonCompositeFieldTypeConfigs-lmACMcVc.js";const I=a=>{if(t(a)||a===s.RELATION)return r[a]?.label;if(o(a))return e[a]?.label};export{I as g};

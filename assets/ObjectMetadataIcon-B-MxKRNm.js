@@ -1,1 +1,0 @@
-import{fU as r,fV as a,fW as e,fX as f}from"./index-CXr1PeGK.js";const l=({objectMetadataItem:o,size:s,stroke:t})=>{const{getIcon:c}=r(),n=c(o?.icon);return a.jsx(e,{Icon:n,color:f(o),size:s,stroke:t})};export{l as O};
