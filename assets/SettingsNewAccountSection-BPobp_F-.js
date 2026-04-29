@@ -1,0 +1,1 @@
+import{fV as t,gH as i,gI as r,gJ as s}from"./index-CXr1PeGK.js";import{S as n}from"./SettingsAccountsListEmptyStateCard-BR1WlhQd.js";const c=()=>t.jsxs(i,{children:[t.jsx(r,{title:s._({id:"Kcr9Fr"}),description:s._({id:"D8ATlr"})}),t.jsx(n,{})]});export{c as S};

@@ -1,0 +1,1 @@
+import{fK as e,fR as o,hU as s,fS as c}from"./index-CXr1PeGK.js";const p=()=>{const a=e();return{readCaptchaToken:o.useCallback(()=>{const t=a.get(s.atom);if(c(t))return t},[a])}},h=/^.{8,}$/;export{h as P,p as u};

@@ -1,0 +1,1 @@
+import{fL as n,gn as r,go as l}from"./index-CXr1PeGK.js";const o=t=>t===0?2:Math.min(7,Math.max(0,Math.ceil(-Math.log10(t)))+2),g=()=>{const e=n(r)?.isBillingEnabled??!1,{formatNumber:s}=l();return{formatUsageValue:a=>{if(e){const i=o(a);return`${s(a,{decimals:i})} credits`}return`$${s(a,{decimals:2})}`},isBillingEnabled:e,unitLabel:e?"credits":"$"}};export{g as u};

@@ -1,0 +1,1 @@
+import{g4 as o,g5 as t}from"./index-CXr1PeGK.js";const n=()=>({danger:s})=>s?t.font.color.danger:t.font.color.light,e=o("div")({name:"StyledInputHint",class:"s1ufd2tz",propsAsIs:!1,vars:{"s1ufd2tz-0":[n()]}});export{e as S};
