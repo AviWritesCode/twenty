@@ -1,4 +1,8 @@
 const getDefaultUrl = () => {
+  const baseUrl = import.meta.env.BASE_URL.endsWith('/')
+    ? import.meta.env.BASE_URL.slice(0, -1)
+    : import.meta.env.BASE_URL;
+
   if (
     window.location.hostname.endsWith('localhost') ||
     window.location.hostname.endsWith('127.0.0.1')
@@ -13,7 +17,7 @@ const getDefaultUrl = () => {
     // In prod context, we use index.html + window var to ovewrite it
     return `${window.location.protocol}//${window.location.hostname}${
       window.location.port ? `:${window.location.port}` : ''
-    }`;
+    }${baseUrl}`;
   }
 };
 

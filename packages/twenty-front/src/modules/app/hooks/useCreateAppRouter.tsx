@@ -264,4 +264,7 @@ export const useCreateAppRouter = (
         </Route>
       </Route>,
     ),
+    {
+      basename: import.meta.env.BASE_URL,
+    },
   );
